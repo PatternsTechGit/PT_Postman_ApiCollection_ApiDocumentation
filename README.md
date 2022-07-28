@@ -75,12 +75,12 @@ Postman is an application used for API testing. It is an HTTP client that tests 
 - Now we will click 'Send' to call, it will give the access token as shown below.
 ![](/images/9.jpg)
 
-- Now we will add another request. We will give Users Get call now.
+- Now we will add another request to Get the list of Users.
 
-    - We will same procedure and select *GET* and use this URL for this request https://graph.microsoft.com/v1.0/users
+    - We will use same procedure as above, select GET and use this URL https://graph.microsoft.com/v1.0/users for this request.
     ![](/images/10.jpg)
     - Now in the headers section of this call we will add **Authorization**.
-    - In authorization we will paste the the Access Token we got from POST call
+    - In authorization we will first write **Bearer** keyword and then paste the Access Token we got from POST call
     ![](/images/11.jpg)
 
     - When we run this call. It will give us all users details. We will copy ID of any user to get the picture of that user.
